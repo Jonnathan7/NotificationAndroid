@@ -51,11 +51,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void snackbarNotificar(View view){
-        Snackbar snackbar = Snackbar.make(view, "Estudia en NextU", Snackbar.LENGTH_LONG)
+        Snackbar snackbar = Snackbar.make(view, "Estudia en Cibertec", Snackbar.LENGTH_LONG)
             .setAction("Visitanos", new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://nextuniversity.com"));
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.cibertec.edu.pe/"));
                     startActivity(intent);
 
                     Toast.makeText(MainActivity.this, "Este es el Toast de Jonnathan", Toast.LENGTH_LONG).show();
