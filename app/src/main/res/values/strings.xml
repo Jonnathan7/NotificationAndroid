@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EjemploNotificacion</string>
+    <string name="textoBoton">Notificación</string>
+    <string name="snackbarBoton">Snackbar</string>
+</resources>
